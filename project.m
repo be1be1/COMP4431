@@ -19,29 +19,41 @@ fprintf(fileID,'  #  start point: %d', startPoint);
 fprintf(fileID,'  #  data number: %d', dataNumber);
 fprintf(fileID,'\n');
 
-for q = 1:1:6
-    for r = q+1:1:6
-        for s = r+1:1:6
-            data = [outputdata(:,:,q);outputdata(:,:,r);outputdata(:,:,s)];
-            svmmodel = svmtrain(data(:,1:numofcol-2),data(:,numofcol));
-            
-            total = 0;
-            right = 0;
-            
-            predlabel = [];
-            for i = 1:1:numofrow
-                total = total + 1;%counter
-                data7 = outputdata(:,:,7);
-                predlabel = svmclassify(svmmodel,data7(i,1:numofcol-2));
-                if(data7(i,numofcol)==predlabel) %if the same
-                    right = right + 1;%counter
-                end
+for testGroup = 8:1:8
+    for q = 1:1:8
+        if q == testGroup 
+            continue;
+        end
+        for r = q+1:1:8
+            if r == testGroup 
+                continue;
             end
-            total
-            correct_rate = right/total
-            fprintf(fileID,'data_used: [%d, %d, %d]  #  ',q, r, s);
-            fprintf(fileID,'total: %d  #  ',total);
-            fprintf(fileID,'correct_rate: %f\n',correct_rate);
+            for s = r+1:1:8
+                if s == testGroup 
+                    continue;
+                end
+                data = [outputdata(:,:,q);outputdata(:,:,r);outputdata(:,:,s)];
+                svmmodel = svmtrain(data(:,1:numofcol-2),data(:,numofcol));
+
+                total = 0;
+                right = 0;
+
+                predlabel = [];
+                for i = 1:1:numofrow
+                    total = total + 1;%counter
+                    testData = outputdata(:,:,testGroup);
+                    predlabel = svmclassify(svmmodel,testData(i,1:numofcol-2));
+                    if(testData(i,numofcol)==predlabel) %if the same
+                        right = right + 1;%counter
+                    end
+                end
+                total
+                correct_rate = right/total
+                fprintf(fileID,'data_used: [%d, %d, %d]  #  ',q, r, s);
+                fprintf(fileID,'test_data: [%d]  #  ',testGroup);
+                fprintf(fileID,'total: %d  #  ',total);
+                fprintf(fileID,'correct_rate: %f\n',correct_rate);
+            end
         end
     end
 end
