@@ -1,8 +1,11 @@
 function [outputData, startPoint, dataNumber] = loadData()
 
 ignoredPointNumber = 25; %first 0.1s -> 25points
-startPoint = ignoredPointNumber+32;
-dataNumber = 20;
+startPoint = ignoredPointNumber+40;
+dataNumber = 5;
+
+channel_start = 1;
+channel_end = 128;
 
 outputData = [];
 
@@ -15,7 +18,7 @@ procdata1 = [];
 for i=startPoint:275:275*60
     procdata1 = [procdata1 ; data1(i:i+dataNumber,:)];
 end
-normProcdata1 = normProc(procdata1(:,1:128));
+normProcdata1 = normProc(procdata1(:,channel_start:channel_end));
 procdata1 = [normProcdata1, procdata1(:,130:130)];
 outputData (:, :, 1) = procdata1;
 
@@ -28,7 +31,7 @@ procdata2 = [];
 for i=startPoint:275:275*60
     procdata2 = [procdata2 ; data2(i:i+dataNumber,:)];
 end
-normProcdata2 = normProc(procdata2(:,1:128));
+normProcdata2 = normProc(procdata2(:,channel_start:channel_end));
 procdata2 = [normProcdata2, procdata2(:,130:130)];
 outputData (:, :, 2) = procdata2;
 
@@ -41,7 +44,7 @@ procdata3 = [];
 for i=startPoint:275:275*60
     procdata3 = [procdata3 ; data3(i:i+dataNumber,:)];
 end
-normProcdata3 = normProc(procdata3(:,1:128));
+normProcdata3 = normProc(procdata3(:,channel_start:channel_end));
 procdata3 = [normProcdata3, procdata3(:,130:130)];
 outputData (:, :, 3) = procdata3;
 
@@ -54,7 +57,7 @@ procdata4 = [];
 for i=startPoint:275:275*60
     procdata4 = [procdata4 ; data4(i:i+dataNumber,:)];
 end
-normProcdata4 = normProc(procdata4(:,1:128));
+normProcdata4 = normProc(procdata4(:,channel_start:channel_end));
 procdata4 = [normProcdata4, procdata4(:,130:130)];
 outputData (:, :, 4) = procdata4;
 
@@ -67,7 +70,7 @@ procdata5 = [];
 for i=startPoint:275:275*60
     procdata5 = [procdata5 ; data5(i:i+dataNumber,:)];
 end
-normProcdata5 = normProc(procdata5(:,1:128));
+normProcdata5 = normProc(procdata5(:,channel_start:channel_end));
 procdata5 = [normProcdata5, procdata5(:,130:130)];
 outputData (:, :, 5) = procdata5;
 
@@ -80,7 +83,7 @@ procdata6 = [];
 for i=startPoint:275:275*60
     procdata6 = [procdata6 ; data6(i:i+dataNumber,:)];
 end
-normProcdata6 = normProc(procdata6(:,1:128));
+normProcdata6 = normProc(procdata6(:,channel_start:channel_end));
 procdata6 = [normProcdata6, procdata6(:,130:130)];
 outputData (:, :, 6) = procdata6;
 
@@ -93,7 +96,7 @@ procdata7 = [];
 for i=startPoint:275:275*60
     procdata7 = [procdata7 ; data7(i:i+dataNumber,:)];
 end
-normProcdata7 = normProc(procdata7(:,1:128));
+normProcdata7 = normProc(procdata7(:,channel_start:channel_end));
 procdata7 = [normProcdata7, procdata7(:,130:130)];
 outputData (:, :, 7) = procdata7;
 
@@ -106,7 +109,7 @@ procdata8 = [];
 for i=startPoint:275:275*60
     procdata8 = [procdata8 ; data8(i:i+dataNumber,:)];
 end
-normProcdata8 = normProc(procdata8(:,1:128));
+normProcdata8 = normProc(procdata8(:,channel_start:channel_end));
 procdata8 = [normProcdata8, procdata8(:,130:130)];
 outputData (:, :, 8) = procdata8;
 
