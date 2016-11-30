@@ -51,7 +51,7 @@ tempLabel3 = repelem(label, 275);
 label3 = tempLabel3.';
 data3 = [data3; label3].';
 procdata3 = [];
-for i=40:275:275*60
+for i=25:275:275*60
     procdata3 = [procdata3 ; data3(i:i+9,:)];
 end
 
@@ -61,7 +61,7 @@ tempLabel4 = repelem(label, 275);
 label4 = tempLabel4.';
 data4 = [data4; label4].';
 procdata4 = [];
-for i=40:275:275*60
+for i=25:275:275*60
     procdata4 = [procdata4 ; data4(i:i+9,:)];
 end
 
@@ -71,8 +71,8 @@ tempLabel5 = repelem(label, 275);
 label5 = tempLabel5.';
 data5 = [data5; label5].';
 procdata5 = [];
-for i=40:275:275*60
-    procdata5 = [procdata5 ; data5(i:i+9,:)];
+for i=25:275:275*60
+    procdata5 = [procdata5 ; data5(i:i+90,:)];
 end
 
 load('./data/KongYuChing.mat');
@@ -81,8 +81,8 @@ tempLabel6 = repelem(label, 275);
 label6 = tempLabel6.';
 data6 = [data6; label6].';
 procdata6 = [];
-for i=40:275:275*60
-    procdata6 = [procdata6 ; data6(i:i+9,:)];
+for i=25:275:275*60
+    procdata6 = [procdata6 ; data6(i:i+90,:)];
 end
 
 load('./data/KongYuChing.mat');
@@ -91,8 +91,8 @@ tempLabel7 = repelem(label, 275);
 label7 = tempLabel7.';
 data7 = [data7; label7].';
 procdata7 = [];
-for i=40:275:275*60
-    procdata7 = [procdata7 ; data7(i:i+9,:)];
+for i=25:275:275*60
+    procdata7 = [procdata7 ; data7(i:i+90,:)];
 end
 
 load('./data/LiuZiAng.mat');
@@ -101,8 +101,8 @@ tempLabel8 = repelem(label, 275);
 label8 = tempLabel8.';
 data8 = [data8; label8].';
 procdata8 = [];
-for i=40:275:275*60
-    procdata8 = [procdata8 ; data8(i:i+9,:)];
+for i=25:275:275*60
+    procdata8 = [procdata8 ; data8(i:i+90,:)];
 end
 
 
