@@ -13,7 +13,7 @@ shape = size(data2);
 numofcol = shape(2);
 numofrow = shape(1);
 
-data = [data1;data2;data6];
+data = [data1;data2;data3];
 svmmodel = svmtrain(data(:,1:numofcol-2),data(:,numofcol));
 
 predlabel = [];
