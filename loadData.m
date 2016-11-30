@@ -1,4 +1,4 @@
-function outputData = loadData()
+function [outputData, startPoint, dataNumber] = loadData()
 
 ignoredPointNumber = 25; %first 0.1s -> 25points
 startPoint = ignoredPointNumber+32;

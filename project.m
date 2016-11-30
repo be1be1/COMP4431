@@ -1,5 +1,5 @@
 clear; close all;
-outputdata = loadData();
+[outputdata, startPoint, dataNumber] = loadData();
 right = 0;
 total = 0;
 options.MaxIter = 10;
@@ -13,7 +13,10 @@ shape = size(outputdata(:,:,2));
 numofcol = shape(2);
 numofrow = shape(1);
 fileID = fopen('exp.txt','A');
+fprintf(fileID,'\n');
 fprintf(fileID,datestr(now, 'dd-mm-yyyy HH:MM:SS'));
+fprintf(fileID,'  #  start point: %d', startPoint);
+fprintf(fileID,'  #  data number: %d', dataNumber);
 fprintf(fileID,'\n');
 
 for q = 1:1:6
