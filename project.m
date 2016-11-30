@@ -19,7 +19,7 @@ fprintf(fileID,'  #  start point: %d', startPoint);
 fprintf(fileID,'  #  data number: %d', dataNumber);
 fprintf(fileID,'\n');
 
-for testGroup = 8:1:8
+for testGroup = 1:1:8
     for q = 1:1:8
         if q == testGroup 
             continue;

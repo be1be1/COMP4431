@@ -5,7 +5,7 @@ startPoint = ignoredPointNumber+40;
 dataNumber = 5;
 
 channel_start = 1;
-channel_end = 128;
+channel_end = 124;
 
 outputData = [];
 
