@@ -17,8 +17,8 @@ fprintf(fileID,datestr(now, 'dd-mm-yyyy HH:MM:SS'));
 fprintf(fileID,'\n');
 
 for q = 1:1:6
-    for r = q:1:6
-        for s = r:1:6
+    for r = q+1:1:6
+        for s = r+1:1:6
             data = [outputdata(:,:,q);outputdata(:,:,r);outputdata(:,:,s)];
             svmmodel = svmtrain(data(:,1:numofcol-2),data(:,numofcol));
             
