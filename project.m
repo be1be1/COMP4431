@@ -12,7 +12,7 @@ testdata = testdata;
 shape = size(outputdata(:,:,2));
 numofcol = shape(2);
 numofrow = shape(1);
-fileID = fopen('exp.txt','w');
+fileID = fopen('exp.txt','A');
 fprintf(fileID,datestr(now, 'dd-mm-yyyy HH:MM:SS'));
 fprintf(fileID,'\n');
 
