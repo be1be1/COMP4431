@@ -87,7 +87,7 @@ normProcdata6 = normProc(procdata6(:,channel_start:channel_end));
 procdata6 = [normProcdata6, procdata6(:,130:130)];
 outputData (:, :, 6) = procdata6;
 
-load('./data/KongYuChing.mat');
+load('./data/LiuZiAng.mat');
 data7 = reshape(instance,[129, 275*60]);
 tempLabel7 = repelem(label, 275);
 label7 = tempLabel7.';
@@ -99,18 +99,4 @@ end
 normProcdata7 = normProc(procdata7(:,channel_start:channel_end));
 procdata7 = [normProcdata7, procdata7(:,130:130)];
 outputData (:, :, 7) = procdata7;
-
-load('./data/LiuZiAng.mat');
-data8 = reshape(instance,[129, 275*60]);
-tempLabel8 = repelem(label, 275);
-label8 = tempLabel8.';
-data8 = [data8; label8].';
-procdata8 = [];
-for i=startPoint:275:275*60
-    procdata8 = [procdata8 ; data8(i:i+dataNumber,:)];
-end
-normProcdata8 = normProc(procdata8(:,channel_start:channel_end));
-procdata8 = [normProcdata8, procdata8(:,130:130)];
-outputData (:, :, 8) = procdata8;
-
 end
