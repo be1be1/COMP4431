@@ -72,7 +72,7 @@ for q = 1:1:numofdataset
                 trainingData = [trainingData; randomData(outputdata(:,:,a))];
             end
         end
-        svmmodel = svmtrain(trainingData(:,1:numofcol-2),trainingData(:,numofcol));
+        svmmodel = svmtrain(trainingData(:,1:numofcol-2),trainingData(:,numofcol),'options', options);
 
         total = 0;
         right = 0;
@@ -111,7 +111,7 @@ for q = 1:1:numofdataset
                     trainingData = [trainingData; randomData(outputdata(:,:,a))];
                 end
             end
-            svmmodel = svmtrain(trainingData(:,1:numofcol-2),trainingData(:,numofcol));
+            svmmodel = svmtrain(trainingData(:,1:numofcol-2),trainingData(:,numofcol),'options', options);
 
             total = 0;
             right = 0;
@@ -151,7 +151,7 @@ for q = 1:1:numofdataset
                         trainingData = [trainingData; randomData(outputdata(:,:,a))];
                     end
                 end
-                svmmodel = svmtrain(trainingData(:,1:numofcol-2),trainingData(:,numofcol));
+                svmmodel = svmtrain(trainingData(:,1:numofcol-2),trainingData(:,numofcol),'options', options);
 
                 total = 0;
                 right = 0;
