@@ -1,4 +1,4 @@
-function [outputData, startPoint, dataNumber] = loadData()
+function [outputData, startPoint, dataNumber] = loadTrainingData()
 
 ignoredPointNumber = 25; %first 0.1s -> 25points
 startPoint = ignoredPointNumber+40;
@@ -7,17 +7,25 @@ dataNumber = 5;
 channel_start = 1;
 channel_end = 124;
 
-dataName = ['ShenXiaLin.mat';
-    'ZhangBeiBei.mat';
-    'ChengHoiYan.mat';'ChenHaiYu.mat';'ZhouYi.mat';'FuKuoHao.mat';'KongYuChing.mat';'LiuZiAng.mat';'MaZhenYuan.mat';'OuYangXiaTing.mat';'YipKaiYan.mat']
+dataName = ['ShenXiaLin.mat    ';
+            'ZhangBeiBei.mat   ';
+            'ChengHoiYan.mat   ';
+            'ChenHaiYu.mat     ';
+            'ZhouYi.mat        ';
+            'FuKuoHao.mat      ';
+            'KongYuChing.mat   ';
+            'LiuZiAng.mat      ';
+            'MaZhenYuan.mat    ';
+            'OuYangXiaTing.mat ';
+            'YipKaiYan.mat     ']
+
 outputData = [];
 
 datasize = size(dataName);
 numberOfDataSet = datasize(1);
 
 for k = 1:1:numberOfDataSet
-    name = dataName(k, :);
-    s = strcat('./data/','.mat');
+    s = strcat('./data/',dataName(k, :));
     load(s);
     data = reshape(instance,[129, 275*60]);
     tempLabel = repelem(label, 275);

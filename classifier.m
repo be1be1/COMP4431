@@ -1,11 +1,12 @@
 function [output] = classifier(input, numOfTrainingDataSet)
     output = [];
     datasize = size(input);
+    numofcol = datasize(2);
     numofrow = datasize(1);
 
     [SVMModels] = getSVMModels(numOfTrainingDataSet);
     modelsize = size(SVMModels);
-    numofModels = modelsize(1);
+    numofModels = modelsize(2);
     
     for m = 1:1:numofModels
         total = 0;
@@ -13,7 +14,7 @@ function [output] = classifier(input, numOfTrainingDataSet)
         predlabel = [];
         for i = 1:1:numofrow
             total = total + 1;%counter
-            predlabel = svmclassify(SVMModels(k,1),input(i,1:numofcol-2));
+            predlabel = svmclassify(SVMModels(1,m),input(i,1:numofcol-2));
             if(input(i,numofcol)==predlabel) %if the same
                 right = right + 1;%counter
             end

@@ -1,4 +1,4 @@
-function [outputData, startPoint, dataNumber] = loadData()
+function [outputData] = loadTestingData(dataName)
 
 ignoredPointNumber = 25; %first 0.1s -> 25points
 startPoint = ignoredPointNumber+40;
@@ -6,18 +6,6 @@ dataNumber = 5;
 
 channel_start = 1;
 channel_end = 124;
-
-dataName = ['ShenXiaLin.mat    ';
-            'ZhangBeiBei.mat   ';
-            'ChengHoiYan.mat   ';
-            'ChenHaiYu.mat     ';
-            'ZhouYi.mat        ';
-            'FuKuoHao.mat      ';
-            'KongYuChing.mat   ';
-            'LiuZiAng.mat      ';
-            'MaZhenYuan.mat    ';
-            'OuYangXiaTing.mat ';
-            'YipKaiYan.mat     ']
 
 outputData = [];
 

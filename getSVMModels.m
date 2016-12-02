@@ -1,7 +1,7 @@
 function [svmmodels] = getSVMModels(numOfTrainingDataSet)
     svmmodels = [];
     
-    [outputdata, startPoint, dataNumber] = loadData();
+    [outputdata, startPoint, dataNumber] = loadTrainingData();
     options.MaxIter = 100000;
 
     shape = size(outputdata(:,:,:));
