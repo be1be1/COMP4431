@@ -1,0 +1,551 @@
+02-12-2016 01:54:54  #  start point: 65  #  data number: 5
+test_data: [ 1,  2]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  4]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  5]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  6]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  6]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 3,  4]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 3,  5]  #  total: 360  #  correct_rate: 0.991667
+test_data: [ 3,  6]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  7]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  8]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  9]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 3, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 4,  5]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 4,  6]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 4,  7]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 4,  8]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 4,  9]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 4, 10]  #  total: 360  #  correct_rate: 0.986111
+test_data: [ 4, 11]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 5,  6]  #  total: 360  #  correct_rate: 0.833333
+test_data: [ 5,  7]  #  total: 360  #  correct_rate: 0.883333
+test_data: [ 5,  8]  #  total: 360  #  correct_rate: 0.877778
+test_data: [ 5,  9]  #  total: 360  #  correct_rate: 0.872222
+test_data: [ 5, 10]  #  total: 360  #  correct_rate: 0.880556
+test_data: [ 5, 11]  #  total: 360  #  correct_rate: 0.872222
+test_data: [ 6,  7]  #  total: 360  #  correct_rate: 0.761111
+test_data: [ 6,  8]  #  total: 360  #  correct_rate: 0.758333
+test_data: [ 6,  9]  #  total: 360  #  correct_rate: 0.713889
+test_data: [ 6, 10]  #  total: 360  #  correct_rate: 0.797222
+test_data: [ 6, 11]  #  total: 360  #  correct_rate: 0.758333
+test_data: [ 7,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 7,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 7, 10]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 7, 11]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 8,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 8, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 8, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 9, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 9, 11]  #  total: 360  #  correct_rate: 0.972222
+test_data: [10, 11]  #  total: 360  #  correct_rate: 0.963889
+test_data: [ 1,  2,  3]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  4]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  5]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  6]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  2,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  4]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  5]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  6]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  3,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3, 11]  #  total: 360  #  correct_rate: 0.969444
+test_data: [ 1,  4,  5]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  4,  6]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  4,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  4,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  4,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  4, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  4, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  5,  6]  #  total: 360  #  correct_rate: 0.947222
+test_data: [ 1,  5,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  5,  8]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 1,  5,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  5, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  5, 11]  #  total: 360  #  correct_rate: 0.966667
+test_data: [ 1,  6,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  6,  8]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  6,  9]  #  total: 360  #  correct_rate: 0.966667
+test_data: [ 1,  6, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  6, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  7,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  7,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  7, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  7, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  8,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  8, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  8, 11]  #  total: 360  #  correct_rate: 0.980556
+test_data: [ 1,  9, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  9, 11]  #  total: 360  #  correct_rate: 0.947222
+test_data: [ 1, 10, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 2,  3,  4]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  5]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  6]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  5]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  6]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5,  6]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  6,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  6,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  6,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  6, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  6, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  7,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  7,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  7, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  7, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  8,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  8, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  8, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  9, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  9, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2, 10, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 3,  4,  5]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 3,  4,  6]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  4,  7]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 3,  4,  8]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  4,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 3,  4, 10]  #  total: 360  #  correct_rate: 0.972222
+test_data: [ 3,  4, 11]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 3,  5,  6]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  5,  7]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  5,  8]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  5,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 3,  5, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  5, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  6,  7]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  6,  8]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  6,  9]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  6, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  6, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  7,  8]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  7,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 3,  7, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  7, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  8,  9]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  8, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  8, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  9, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  9, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3, 10, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 4,  5,  6]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 4,  5,  7]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 4,  5,  8]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 4,  5,  9]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 4,  5, 10]  #  total: 360  #  correct_rate: 0.972222
+test_data: [ 4,  5, 11]  #  total: 360  #  correct_rate: 0.986111
+test_data: [ 4,  6,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 4,  6,  8]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 4,  6,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 4,  6, 10]  #  total: 360  #  correct_rate: 0.986111
+test_data: [ 4,  6, 11]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 4,  7,  8]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 4,  7,  9]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 4,  7, 10]  #  total: 360  #  correct_rate: 0.975000
+test_data: [ 4,  7, 11]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 4,  8,  9]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 4,  8, 10]  #  total: 360  #  correct_rate: 0.977778
+test_data: [ 4,  8, 11]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 4,  9, 10]  #  total: 360  #  correct_rate: 0.986111
+test_data: [ 4,  9, 11]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 4, 10, 11]  #  total: 360  #  correct_rate: 0.986111
+test_data: [ 5,  6,  7]  #  total: 360  #  correct_rate: 0.861111
+test_data: [ 5,  6,  8]  #  total: 360  #  correct_rate: 0.808333
+test_data: [ 5,  6,  9]  #  total: 360  #  correct_rate: 0.747222
+test_data: [ 5,  6, 10]  #  total: 360  #  correct_rate: 0.858333
+test_data: [ 5,  6, 11]  #  total: 360  #  correct_rate: 0.875000
+test_data: [ 5,  7,  8]  #  total: 360  #  correct_rate: 0.897222
+test_data: [ 5,  7,  9]  #  total: 360  #  correct_rate: 0.877778
+test_data: [ 5,  7, 10]  #  total: 360  #  correct_rate: 0.888889
+test_data: [ 5,  7, 11]  #  total: 360  #  correct_rate: 0.883333
+test_data: [ 5,  8,  9]  #  total: 360  #  correct_rate: 0.880556
+test_data: [ 5,  8, 10]  #  total: 360  #  correct_rate: 0.883333
+test_data: [ 5,  8, 11]  #  total: 360  #  correct_rate: 0.863889
+test_data: [ 5,  9, 10]  #  total: 360  #  correct_rate: 0.855556
+test_data: [ 5,  9, 11]  #  total: 360  #  correct_rate: 0.863889
+test_data: [ 5, 10, 11]  #  total: 360  #  correct_rate: 0.894444
+test_data: [ 6,  7,  8]  #  total: 360  #  correct_rate: 0.730556
+test_data: [ 6,  7,  9]  #  total: 360  #  correct_rate: 0.613889
+test_data: [ 6,  7, 10]  #  total: 360  #  correct_rate: 0.722222
+test_data: [ 6,  7, 11]  #  total: 360  #  correct_rate: 0.722222
+test_data: [ 6,  8,  9]  #  total: 360  #  correct_rate: 0.711111
+test_data: [ 6,  8, 10]  #  total: 360  #  correct_rate: 0.794444
+test_data: [ 6,  8, 11]  #  total: 360  #  correct_rate: 0.755556
+test_data: [ 6,  9, 10]  #  total: 360  #  correct_rate: 0.711111
+test_data: [ 6,  9, 11]  #  total: 360  #  correct_rate: 0.694444
+test_data: [ 6, 10, 11]  #  total: 360  #  correct_rate: 0.775000
+test_data: [ 7,  8,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 7,  8, 10]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 7,  8, 11]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 7,  9, 10]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 7,  9, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 7, 10, 11]  #  total: 360  #  correct_rate: 0.991667
+test_data: [ 8,  9, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 8,  9, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 8, 10, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 9, 10, 11]  #  total: 360  #  correct_rate: 0.988889
+test_data: [ 1,  2,  3,  4]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  3,  5]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  3,  6]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  2,  3,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  3,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  3,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  3, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  3, 11]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 1,  2,  4,  5]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  4,  6]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  2,  4,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  4,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  4,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  4, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  4, 11]  #  total: 360  #  correct_rate: 0.991667
+test_data: [ 1,  2,  5,  6]  #  total: 360  #  correct_rate: 0.950000
+test_data: [ 1,  2,  5,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  5,  8]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 1,  2,  5,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  5, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  5, 11]  #  total: 360  #  correct_rate: 0.972222
+test_data: [ 1,  2,  6,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  6,  8]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  2,  6,  9]  #  total: 360  #  correct_rate: 0.966667
+test_data: [ 1,  2,  6, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  6, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  2,  7,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  7,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  7, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  7, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  8,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  8, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  8, 11]  #  total: 360  #  correct_rate: 0.986111
+test_data: [ 1,  2,  9, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  2,  9, 11]  #  total: 360  #  correct_rate: 0.969444
+test_data: [ 1,  2, 10, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  4,  5]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  4,  6]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  3,  4,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  4,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  4,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  4, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  4, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  3,  5,  6]  #  total: 360  #  correct_rate: 0.925000
+test_data: [ 1,  3,  5,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  5,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  5,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  5, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  3,  5, 11]  #  total: 360  #  correct_rate: 0.975000
+test_data: [ 1,  3,  6,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  6,  8]  #  total: 360  #  correct_rate: 0.966667
+test_data: [ 1,  3,  6,  9]  #  total: 360  #  correct_rate: 0.966667
+test_data: [ 1,  3,  6, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  6, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  3,  7,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  7,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  7, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  7, 11]  #  total: 360  #  correct_rate: 0.977778
+test_data: [ 1,  3,  8,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  8, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  3,  8, 11]  #  total: 360  #  correct_rate: 0.933333
+test_data: [ 1,  3,  9, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  3,  9, 11]  #  total: 360  #  correct_rate: 0.933333
+test_data: [ 1,  3, 10, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  4,  5,  6]  #  total: 360  #  correct_rate: 0.955556
+test_data: [ 1,  4,  5,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  4,  5,  8]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 1,  4,  5,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  4,  5, 10]  #  total: 360  #  correct_rate: 0.972222
+test_data: [ 1,  4,  5, 11]  #  total: 360  #  correct_rate: 0.980556
+test_data: [ 1,  4,  6,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  4,  6,  8]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  4,  6,  9]  #  total: 360  #  correct_rate: 0.933333
+test_data: [ 1,  4,  6, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  4,  6, 11]  #  total: 360  #  correct_rate: 0.966667
+test_data: [ 1,  4,  7,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  4,  7,  9]  #  total: 360  #  correct_rate: 0.991667
+test_data: [ 1,  4,  7, 10]  #  total: 360  #  correct_rate: 0.966667
+test_data: [ 1,  4,  7, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  4,  8,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  4,  8, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  4,  8, 11]  #  total: 360  #  correct_rate: 0.961111
+test_data: [ 1,  4,  9, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  4,  9, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  4, 10, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  5,  6,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  5,  6,  8]  #  total: 360  #  correct_rate: 0.936111
+test_data: [ 1,  5,  6,  9]  #  total: 360  #  correct_rate: 0.927778
+test_data: [ 1,  5,  6, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  5,  6, 11]  #  total: 360  #  correct_rate: 0.936111
+test_data: [ 1,  5,  7,  8]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 1,  5,  7,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  5,  7, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  5,  7, 11]  #  total: 360  #  correct_rate: 0.966667
+test_data: [ 1,  5,  8,  9]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 1,  5,  8, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  5,  8, 11]  #  total: 360  #  correct_rate: 0.975000
+test_data: [ 1,  5,  9, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  5,  9, 11]  #  total: 360  #  correct_rate: 0.919444
+test_data: [ 1,  5, 10, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  6,  7,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  6,  7,  9]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  6,  7, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  6,  7, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  6,  8,  9]  #  total: 360  #  correct_rate: 0.961111
+test_data: [ 1,  6,  8, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  6,  8, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 1,  6,  9, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  6,  9, 11]  #  total: 360  #  correct_rate: 0.958333
+test_data: [ 1,  6, 10, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  7,  8,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  7,  8, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  7,  8, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  7,  9, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  7,  9, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  7, 10, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  8,  9, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 1,  8,  9, 11]  #  total: 360  #  correct_rate: 0.933333
+test_data: [ 1,  8, 10, 11]  #  total: 360  #  correct_rate: 0.988889
+test_data: [ 1,  9, 10, 11]  #  total: 360  #  correct_rate: 0.955556
+test_data: [ 2,  3,  4,  5]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  4,  6]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  4,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  4,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  4,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  4, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  4, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  5,  6]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  5,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  5,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  5,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  5, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  5, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  6,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  6,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  6,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  6, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  6, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  7,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  7,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  7, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  7, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  8,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  8, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  8, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  9, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3,  9, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  3, 10, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  5,  6]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  5,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  5,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  5,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  5, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  5, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  6,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  6,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  6,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  6, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  6, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  7,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  7,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  7, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  7, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  8,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  8, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  8, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  9, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4,  9, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  4, 10, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5,  6,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5,  6,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5,  6,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5,  6, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 2,  5,  6, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5,  7,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5,  7,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5,  7, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5,  7, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5,  8,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5,  8, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5,  8, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5,  9, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5,  9, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  5, 10, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  6,  7,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  6,  7,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  6,  7, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  6,  7, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  6,  8,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  6,  8, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  6,  8, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  6,  9, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  6,  9, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  6, 10, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  7,  8,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  7,  8, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  7,  8, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  7,  9, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  7,  9, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  7, 10, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  8,  9, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  8,  9, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  8, 10, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 2,  9, 10, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 3,  4,  5,  6]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  4,  5,  7]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 3,  4,  5,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 3,  4,  5,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 3,  4,  5, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  4,  5, 11]  #  total: 360  #  correct_rate: 0.977778
+test_data: [ 3,  4,  6,  7]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  4,  6,  8]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  4,  6,  9]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  4,  6, 10]  #  total: 360  #  correct_rate: 0.988889
+test_data: [ 3,  4,  6, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  4,  7,  8]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  4,  7,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 3,  4,  7, 10]  #  total: 360  #  correct_rate: 0.972222
+test_data: [ 3,  4,  7, 11]  #  total: 360  #  correct_rate: 0.966667
+test_data: [ 3,  4,  8,  9]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  4,  8, 10]  #  total: 360  #  correct_rate: 0.966667
+test_data: [ 3,  4,  8, 11]  #  total: 360  #  correct_rate: 0.977778
+test_data: [ 3,  4,  9, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  4,  9, 11]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 3,  4, 10, 11]  #  total: 360  #  correct_rate: 0.972222
+test_data: [ 3,  5,  6,  7]  #  total: 360  #  correct_rate: 0.966667
+test_data: [ 3,  5,  6,  8]  #  total: 360  #  correct_rate: 0.980556
+test_data: [ 3,  5,  6,  9]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  5,  6, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  5,  6, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  5,  7,  8]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  5,  7,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 3,  5,  7, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  5,  7, 11]  #  total: 360  #  correct_rate: 0.966667
+test_data: [ 3,  5,  8,  9]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 3,  5,  8, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  5,  8, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  5,  9, 10]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 3,  5,  9, 11]  #  total: 360  #  correct_rate: 0.988889
+test_data: [ 3,  5, 10, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  6,  7,  8]  #  total: 360  #  correct_rate: 0.980556
+test_data: [ 3,  6,  7,  9]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  6,  7, 10]  #  total: 360  #  correct_rate: 0.977778
+test_data: [ 3,  6,  7, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  6,  8,  9]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  6,  8, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  6,  8, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  6,  9, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  6,  9, 11]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 3,  6, 10, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  7,  8,  9]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  7,  8, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  7,  8, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  7,  9, 10]  #  total: 360  #  correct_rate: 0.980556
+test_data: [ 3,  7,  9, 11]  #  total: 360  #  correct_rate: 0.975000
+test_data: [ 3,  7, 10, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  8,  9, 10]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  8,  9, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  8, 10, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 3,  9, 10, 11]  #  total: 360  #  correct_rate: 0.963889
+test_data: [ 4,  5,  6,  7]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 4,  5,  6,  8]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 4,  5,  6,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 4,  5,  6, 10]  #  total: 360  #  correct_rate: 0.966667
+test_data: [ 4,  5,  6, 11]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 4,  5,  7,  8]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 4,  5,  7,  9]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 4,  5,  7, 10]  #  total: 360  #  correct_rate: 0.936111
+test_data: [ 4,  5,  7, 11]  #  total: 360  #  correct_rate: 0.986111
+test_data: [ 4,  5,  8,  9]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 4,  5,  8, 10]  #  total: 360  #  correct_rate: 0.963889
+test_data: [ 4,  5,  8, 11]  #  total: 360  #  correct_rate: 0.983333
+test_data: [ 4,  5,  9, 10]  #  total: 360  #  correct_rate: 0.966667
+test_data: [ 4,  5,  9, 11]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 4,  5, 10, 11]  #  total: 360  #  correct_rate: 0.961111
+test_data: [ 4,  6,  7,  8]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 4,  6,  7,  9]  #  total: 360  #  correct_rate: 1.000000
+test_data: [ 4,  6,  7, 10]  #  total: 360  #  correct_rate: 0.958333
+test_data: [ 4,  6,  7, 11]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 4,  6,  8,  9]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 4,  6,  8, 10]  #  total: 360  #  correct_rate: 0.980556
+test_data: [ 4,  6,  8, 11]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 4,  6,  9, 10]  #  total: 360  #  correct_rate: 0.986111
+test_data: [ 4,  6,  9, 11]  #  total: 360  #  correct_rate: 0.997222
+test_data: [ 4,  6, 10, 11]  #  total: 360  #  correct_rate: 0.986111
+test_data: [ 4,  7,  8,  9]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 4,  7,  8, 10]  #  total: 360  #  correct_rate: 0.969444
+test_data: [ 4,  7,  8, 11]  #  total: 360  #  correct_rate: 0.991667
+test_data: [ 4,  7,  9, 10]  #  total: 360  #  correct_rate: 0.969444
+test_data: [ 4,  7,  9, 11]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 4,  7, 10, 11]  #  total: 360  #  correct_rate: 0.975000
+test_data: [ 4,  8,  9, 10]  #  total: 360  #  correct_rate: 0.980556
+test_data: [ 4,  8,  9, 11]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 4,  8, 10, 11]  #  total: 360  #  correct_rate: 0.961111
+test_data: [ 4,  9, 10, 11]  #  total: 360  #  correct_rate: 0.986111
+test_data: [ 5,  6,  7,  8]  #  total: 360  #  correct_rate: 0.841667
+test_data: [ 5,  6,  7,  9]  #  total: 360  #  correct_rate: 0.730556
+test_data: [ 5,  6,  7, 10]  #  total: 360  #  correct_rate: 0.866667
+test_data: [ 5,  6,  7, 11]  #  total: 360  #  correct_rate: 0.880556
+test_data: [ 5,  6,  8,  9]  #  total: 360  #  correct_rate: 0.733333
+test_data: [ 5,  6,  8, 10]  #  total: 360  #  correct_rate: 0.816667
+test_data: [ 5,  6,  8, 11]  #  total: 360  #  correct_rate: 0.875000
+test_data: [ 5,  6,  9, 10]  #  total: 360  #  correct_rate: 0.722222
+test_data: [ 5,  6,  9, 11]  #  total: 360  #  correct_rate: 0.819444
+test_data: [ 5,  6, 10, 11]  #  total: 360  #  correct_rate: 0.866667
+test_data: [ 5,  7,  8,  9]  #  total: 360  #  correct_rate: 0.886111
+test_data: [ 5,  7,  8, 10]  #  total: 360  #  correct_rate: 0.886111
+test_data: [ 5,  7,  8, 11]  #  total: 360  #  correct_rate: 0.880556
+test_data: [ 5,  7,  9, 10]  #  total: 360  #  correct_rate: 0.827778
+test_data: [ 5,  7,  9, 11]  #  total: 360  #  correct_rate: 0.850000
+test_data: [ 5,  7, 10, 11]  #  total: 360  #  correct_rate: 0.875000
+test_data: [ 5,  8,  9, 10]  #  total: 360  #  correct_rate: 0.850000
+test_data: [ 5,  8,  9, 11]  #  total: 360  #  correct_rate: 0.869444
+test_data: [ 5,  8, 10, 11]  #  total: 360  #  correct_rate: 0.891667
+test_data: [ 5,  9, 10, 11]  #  total: 360  #  correct_rate: 0.883333
+test_data: [ 6,  7,  8,  9]  #  total: 360  #  correct_rate: 0.605556
+test_data: [ 6,  7,  8, 10]  #  total: 360  #  correct_rate: 0.716667
+test_data: [ 6,  7,  8, 11]  #  total: 360  #  correct_rate: 0.705556
+test_data: [ 6,  7,  9, 10]  #  total: 360  #  correct_rate: 0.583333
+test_data: [ 6,  7,  9, 11]  #  total: 360  #  correct_rate: 0.588889
+test_data: [ 6,  7, 10, 11]  #  total: 360  #  correct_rate: 0.719444
+test_data: [ 6,  8,  9, 10]  #  total: 360  #  correct_rate: 0.641667
+test_data: [ 6,  8,  9, 11]  #  total: 360  #  correct_rate: 0.644444
+test_data: [ 6,  8, 10, 11]  #  total: 360  #  correct_rate: 0.780556
+test_data: [ 6,  9, 10, 11]  #  total: 360  #  correct_rate: 0.708333
+test_data: [ 7,  8,  9, 10]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 7,  8,  9, 11]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 7,  8, 10, 11]  #  total: 360  #  correct_rate: 0.988889
+test_data: [ 7,  9, 10, 11]  #  total: 360  #  correct_rate: 0.994444
+test_data: [ 8,  9, 10, 11]  #  total: 360  #  correct_rate: 1.000000
